@@ -1,0 +1,297 @@
+@font-face {
+  font-family: Ogg;
+  src: url("./Ogg.otf");
+}
+@font-face {
+  font-family: oggregular;
+  src: url("./oggregular.otf");
+}
+@font-face {
+  font-family: aper;
+  src: url("./ApercuMonoProLight.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1200px;
+  /* margin: 0 auto; */
+  font-family: aper;
+  font-size: 15px;
+}
+.top {
+  max-width: 1000px;
+  font-size: 80px;
+  margin-left: 50px;
+  font-family: Ogg;
+  margin-top: 300px;
+  font-weight: 400;
+  line-height: 1;
+  width: max-content;
+}
+.logo {
+  width: 60px;
+  position: fixed;
+  top: 10px;
+  margin-bottom: 50px;
+}
+.logopic {
+  margin-left: 50px;
+  margin-top: 35px;
+  width: 100%;
+  max-width: 100%;
+}
+.canalheading {
+  display: inline;
+}
+.red {
+  color: #f64444;
+  display: inline;
+}
+.para {
+  display: inline;
+}
+.backgroundimg {
+  width: 1100px;
+}
+.backpic {
+  margin-top: 300px;
+  width: 100%;
+  max-width: 100%;
+}
+.newheading {
+  font-size: 110px;
+  font-weight: 400;
+  margin-top: 220px;
+  font-family: oggregular;
+  margin-left: 50px;
+  width: 600px;
+  line-height: 1;
+}
+.flexcards {
+  max-width: 1000px;
+  display: flex;
+  font-family: aper;
+}
+.cardpic {
+  width: 300px;
+  height: 550px;
+}
+.card {
+  margin-left: 50px;
+}
+.japanlang {
+  display: flex;
+  width: 1000px;
+  margin-top: 80px;
+  margin-left: 60px;
+}
+.japani {
+  font-size: 70px;
+  font-weight: 400;
+  text-align: center;
+  width: 40%;
+  margin-top: -20px;
+}
+.japanheading {
+  font-size: 110px;
+  font-weight: 400;
+  line-height: 1;
+  text-align: center;
+  width: 40%;
+  font-family: oggregular;
+}
+.smallbusiness {
+  display: flex;
+  margin-left: 50px;
+  margin-top: 100px;
+  border-top: 2px black dashed;
+  border-bottom: 2px black dashed;
+  width: 1000px;
+  justify-content: space-between;
+  position: relative;
+}
+.popup {
+  width: 300px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.seeall {
+  border: 1px solid black;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px 40px;
+  position: absolute;
+  left: 36%;
+  bottom: -27px;
+  transform: translate(50%, 0);
+  background-color: white;
+}
+.seeall:hover {
+  background-color: black;
+  color: white;
+  transition-duration: 0.3s;
+}
+.seeall2:hover {
+  background-color: black;
+  color: white;
+  transition-duration: 0.3s;
+}
+.location {
+  display: flex;
+  width: 1000px;
+  margin-top: 100px;
+  margin-left: 50px;
+  font-family: ogg;
+  justify-content: space-between;
+}
+.locationcard {
+  width: 460px;
+  border: 2px dashed black;
+}
+.locationimg {
+  filter: brightness(0) opacity(0.5);
+  display: none;
+}
+.para2 {
+  font-size: 40px;
+  padding: 40px;
+  text-align: center;
+  line-height: 1;
+}
+.vendor {
+  margin-top: 100px;
+  font-family: ogg;
+  margin-left: 50px;
+  width: 1000px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  position: relative;
+  margin-bottom: 50px;
+  height: 300px;
+}
+.para3 {
+  font-size: 40px;
+  padding: 40px;
+  text-align: center;
+  line-height: 1;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+.seeall2 {
+  border: 1px solid black;
+  color: black;
+  text-decoration: none;
+  font-family: aper;
+  text-align: center;
+  padding: 15px 40px;
+  position: absolute;
+  background-color: white;
+  left: 36%;
+  transform: translate(50%, 0);
+}
+.insta {
+  width: 1000px;
+  margin-left: 50px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.instacards {
+  width: 25%;
+  text-align: center;
+  border: 2px dashed black;
+  padding: 30px;
+}
+.link {
+  color: black;
+  display: block;
+  text-decoration: none;
+}
+.icon {
+  font-size: 50px;
+}
+.fixed {
+  display: flex;
+  flex-direction: column;
+  transform: rotate(90deg);
+  position: fixed;
+  right: -537px;
+  width: 100%;
+  bottom: 172px;
+}
+.community {
+  background-color: #ffb400;
+  padding: 10px;
+}
+.retail {
+  background-color: #f64444;
+  padding: 10px;
+}
+.chinese {
+  display: inline;
+  font-size: 20px;
+  margin-left: 30px;
+}
+.food {
+  background-color: lightskyblue;
+  padding: 10px;
+}
+.fixlink {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  margin-left: 250px;
+}
+.update {
+  display: flex;
+  width: 1000px;
+  justify-content: space-between;
+  border: 2px dashed black;
+  margin-top: 100px;
+  margin-left: 50px;
+  padding: 40px;
+}
+.emaillink {
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  padding: 18px 160px;
+  width: 40%;
+}
+.emaillink:hover {
+  background-color: black;
+  color: white;
+  transition-duration: 0.3s;
+}
+.arrow {
+  margin-left: 60px;
+}
+.putemail {
+  width: 50%;
+  margin-top: 27px;
+}
+.updatepara {
+  width: 50%;
+  font-size: 25px;
+}
+.webfooter {
+  display: flex;
+  width: 1000px;
+  margin-left: 50px;
+  font-family: ogg;
+  margin-top: 30px;
+  font-size: 16px;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.policy,
+.zero,
+.loginven {
+  color: black;
+}
